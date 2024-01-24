@@ -30,6 +30,12 @@ header {
     font-size: 30px;
     font-weight: 700;
     color: black;
+    transition: 0.5s;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+    
 }
 
 .navlist {
@@ -46,7 +52,9 @@ header {
 }
 
 .navlist a:hover{
+    transform: scale(1.2);
     border-bottom: 2px solid black;
+    
 }
 
 #menu-icon {
