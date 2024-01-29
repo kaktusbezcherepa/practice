@@ -65,6 +65,18 @@ header {
     
 }
 
+.ri-telegram-fill {
+    font-size: 30px;
+}
+.ri-discord-fill{
+    font-size: 30px;
+    
+}
+
+.ri-vk-fill{
+    font-size: 30px;
+}
+
 form {
     background-color: #ffffff;
     padding: 20px;

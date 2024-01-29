@@ -65,7 +65,18 @@ header {
 .navlist a:hover{
     transform: scale(1.2);
     border-bottom: 2px solid black;
+}
+
+.ri-telegram-fill {
+    font-size: 30px;
+}
+.ri-discord-fill{
+    font-size: 30px;
     
+}
+
+.ri-vk-fill{
+    font-size: 30px;
 }
 
 form {
@@ -82,7 +93,7 @@ form {
 }
 
 #registrationForm{
-    background: #ccc;
+    background: #BDBCBC;
 }
 
 

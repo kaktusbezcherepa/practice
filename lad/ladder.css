@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    height: 100%; 
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 20px 9%;
+    background:transparent;
+    background-color: #fff;
+    border-bottom: 2px solid black;
+}
+
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    transition: 0.5s;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+    
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color: black;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navlist a:hover{
+    transform: scale(1.2);
+    border-bottom: 2px solid black;
+}
+
+
+.ri-telegram-fill {
+    font-size: 30px;
+}
+.ri-discord-fill{
+    font-size: 30px;
+    
+}
+
+.ri-vk-fill{
+    font-size: 30px;
+}
+
+.reg {
+    margin-left: 40px;
+}
+
+.log {
+    margin-left: 40px;
+}
+ 
+
+
